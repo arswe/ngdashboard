@@ -13,10 +13,7 @@ export const UiComponentsRoutes: Routes = [
     children: [
       { path: 'badge', component: AppBadgeComponent },
       { path: 'chips', component: AppChipsComponent },
-      {
-        path: 'lists',
-        component: AppListsComponent,
-      },
+      { path: 'lists', component: AppListsComponent },
       {
         path: 'menu',
         component: AppMenuComponent,
