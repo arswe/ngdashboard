@@ -15,10 +15,7 @@ export const UiComponentsRoutes: Routes = [
       { path: 'chips', component: AppChipsComponent },
       { path: 'lists', component: AppListsComponent },
       { path: 'menu', component: AppMenuComponent },
-      {
-        path: 'tooltips',
-        component: AppTooltipsComponent,
-      },
+      { path: 'tooltips', component: AppTooltipsComponent },
     ],
   },
 ];
