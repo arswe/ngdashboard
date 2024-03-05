@@ -11,14 +11,8 @@ export const UiComponentsRoutes: Routes = [
   {
     path: '',
     children: [
-      {
-        path: 'badge',
-        component: AppBadgeComponent,
-      },
-      {
-        path: 'chips',
-        component: AppChipsComponent,
-      },
+      { path: 'badge', component: AppBadgeComponent },
+      { path: 'chips', component: AppChipsComponent },
       {
         path: 'lists',
         component: AppListsComponent,
